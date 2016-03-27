@@ -53,9 +53,9 @@ public class GmailTest {
 			//Action for transferring the mail from Inbox to Starred//
 			
 			Actions builder = new Actions(driver);   
-	        Action builderOfActions = builder.dragAndDrop(GmailLogin.GotoMail(driver), GmailLogin.DropEmail(driver)).build();
-	        builderOfActions.perform();
-	        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+	                Action builderOfActions = builder.dragAndDrop(GmailLogin.GotoMail(driver), GmailLogin.DropEmail(driver)).build();
+	                builderOfActions.perform();
+	                driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 			driver.close();
 			
 		}
