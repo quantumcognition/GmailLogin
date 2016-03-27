@@ -36,13 +36,13 @@ public class GmailTest {
 			//Account Verification//
 			
 			//String r = GmailLogin.Verify(driver).getText();
-	        //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	                //driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 			//Assert.assertEquals(r, "Ananth");
 			
 			//Send a Mail Across//
 			
 			//GmailLogin.Compose(driver).click();
-		    //driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		        //driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 			//GmailLogin.To(driver).sendKeys("abc14@gmail.com");
 			//GmailLogin.Subject(driver).sendKeys("Ola Senor !");
 			//GmailLogin.Content(driver).sendKeys("Send it Across to Space !");
